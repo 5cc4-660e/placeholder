@@ -1,0 +1,80 @@
+.App-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-title {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.game-grid {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.game-grid-disc {
+  background: white;
+  border-radius: 50%;
+  height: 50px;
+  min-width: 50px;
+}
+
+.game-grid-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-grid-square {
+  align-items: center;
+  background: blue;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  min-width: 65px;
+}
+
+.game-input-disc {
+  background: yellow;
+  border-radius: 50%;
+  height: 55px;
+  min-width: 55px;
+}
+
+.game-input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-input-square {
+  align-items: center;
+  background: white;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  min-width: 65px;
+}
+
+.game-new {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+}
+
+.game-new-button {
+  font-size: 1em;
+}
+
+.game-status {
+  align-items: center;
+  display: flex;
+  font-size: 1.5em;
+  height: 65px;
+  justify-content: center;
+}
